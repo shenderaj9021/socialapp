@@ -30,7 +30,8 @@ app.use(morgan("common"));
 app.use(bodyParser.json({ limit: "30mb", extended: true }));
 app.use(bodyParser.urlencoded({ limit: "30mb", extended: true }));
 var corsOptions = {
-  origin: "http://localhost:3000"
+  origin: "https://socialappclient.vercel.app"
+
 };
 
 app.use(cors(corsOptions));
