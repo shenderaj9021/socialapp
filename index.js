@@ -68,6 +68,7 @@ mongoose
     app.listen(PORT, () => console.log(`Server Port: ${PORT}`));
 
     /* ADD DATA ONE TIME */
+    // add data first time
     // User.insertMany(users);
     // Post.insertMany(posts);
   })
@@ -75,19 +76,3 @@ mongoose
 
 
 
-// {
-//   "version": 2,
-//   "builds": [
-//     {
-//       "src": "index.js",
-//       "use": "@now/node"
-//     }
-//   ],
-//   "routes": [
-//     {
-     
-//       "src": "/(.*)",
-//       "dest": "index.js"
-//     }
-//   ]
-// }
