@@ -72,3 +72,22 @@ mongoose
     // Post.insertMany(posts);
   })
   .catch((error) => console.log(`${error} did not connect`));
+
+
+
+// {
+//   "version": 2,
+//   "builds": [
+//     {
+//       "src": "index.js",
+//       "use": "@now/node"
+//     }
+//   ],
+//   "routes": [
+//     {
+     
+//       "src": "/(.*)",
+//       "dest": "index.js"
+//     }
+//   ]
+// }
