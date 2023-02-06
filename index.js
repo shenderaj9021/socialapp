@@ -30,7 +30,7 @@ app.use(morgan("common"));
 app.use(bodyParser.json({ limit: "30mb", extended: true }));
 app.use(bodyParser.urlencoded({ limit: "30mb", extended: true }));
 var corsOptions = {
-  origin: "https://socialappclient.vercel.app"
+    origin: ["https://myspaceship.vercel.app/","https://localhost:3000"]
 
 };
 
